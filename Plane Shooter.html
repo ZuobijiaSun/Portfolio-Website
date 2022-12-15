@@ -25,6 +25,7 @@
   
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   <link href="css/main.css" rel="stylesheet">
 
 </head>
@@ -34,20 +35,24 @@
 
   <!--Back to Top-->
 
-   <svg viewBox="0 0 150 150">
-    <path 
-        id="curve" 
-        fill="transparent" 
-        d="M 75 75 m -50, 0 a 50, 50 0 1, 1 100, 0 a 50, 50 0 1, 1 -100, 0"
-    />
-      <text>
-        <textPath xlink:href="#curve">
-            * CLICK * BACK * TO * TOP
-        </textPath>
-      </text>
-    </svg>
+    <div class="back-to-top">
 
-    <a href="#" class="tiger">🐯</a>
+       <svg viewBox="0 0 150 150">
+        <path 
+            id="curve" 
+            fill="transparent" 
+            d="M 75 75 m -50, 0 a 50, 50 0 1, 1 100, 0 a 50, 50 0 1, 1 -100, 0"
+        />
+          <text>
+            <textPath xlink:href="#curve">
+                * CLICK * BACK * TO * TOP
+            </textPath>
+          </text>
+        </svg>
+
+        <a href="#" class="tiger">🐯</a>
+
+    </div>
 
   <!--Menu-->
 
@@ -62,142 +67,152 @@
     </div>
 
 
- 
 
 
-  <div class="container">
 
-    <div class="row">
-      <div class="col-xs-12">
+  <!--Container-->
 
-        <div class="text-center">
-          <h2 class="with-project-number color">
-            <span class="project-number">11</span>Plane Shooter</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-              <div>
-                <h4>Role</h4>
-                <p>Game Design</p>
-              </div>
+    <div class="work-container">
 
-              <div class="buttons">     
+      <h1 class="project-title color">Plane Shooter</h1>
 
-              <a href="files/game report.pdf" class='btn-custom section-toggle btn-color' target=“_blank>
-                Game Reports
-              </a>
+      <div class="col-md-8 overview">
+        <h2>Overview</h2>
+        <h5>Summer 2019 | 1 Months</h5>
+          <p>
+             It is a simple plane shooting game I did for my processing class. There are only three pages in total - prestart page, game page and gameover page with some simple animations. 
+          </p>
+      </div>
 
-              <a href="files/code.pdf" class='btn-custom section-toggle btn-color' target=“_blank>
-                Code Analysis
-              </a>
- 
+      <div class="col-md-3 role">
 
-              </div>
-                                
-           
-          </div>
+        <h2>Role</h2>
+        <h5>
+          Game Design
+          <br>
+          UI Visuals
+          <br>
+          Processing
+          </h5>
 
-          <div class="col-md-8">
-            <h4>Brief</h4>
-            <p> 
-            It is a simple plane shooting game I did for my processing class. There are only three pages in total - prestart page, game page and gameover page with some simple animations. 
+          <a href='files/game report.pdf' 
+          target=“_blank>
 
-            <p>
-              1. Clicking the start button to start the game.
-            <br>
-              2. Using the mouse to control the removable shooter at the bottom.
-            <br>
-              3. Getting 10 points and 1 more bullet when hitting one plane.
-            <br>
-              4. Pressing the key “i” or “d” to increase/decrease the speed of planes.
-            <br>
-              5. Pressing the key “r” to restart the game when game’s over.
-            </p>
+            <button class="project-btn-1"><span>Click!</span><span>Game Report</span></button>
 
-          </div>
- 
+          </a>
 
-        <h5 class="text-center">Prestart Page</h5>
+          <a href='files/code.pdf' 
+          target=“_blank>
 
-        <p>Stars move with your mouse. 
-        <br>Clicking the start button to start when the game loads successfully.</p>
-        <img src="img/game/1.png" alt="" class="img-responsive">
+            <button class="project-btn-2"><span>Click!</span><span>Code Analysis</span></button>
+
+          </a>
+
+      </div>
 
 
-        <h5 class="text-center">Game Page</h5>
-        <p>
-        Moving your mouse to control the removable shooter at the bottom.
-        <br>10 bullets in total: getting 10 points and 1 more bullet when hitting one plane. 
-        <br>The more you hit, the faster the planes fly.
-        <br>Pressing the key “i” or “d” to increase/decrease the speed of planes.
+
+      <div class="col-md-12 subtitle text-center">
+        
+        <h2>Gameplay</h2>
+        <hr>
+
+        <p class="text-content">
+          1. Clicking the start button to start the game.
+        <br>
+          2. Using the mouse to control the removable shooter at the bottom.
+        <br>
+          3. Getting 10 points and 1 more bullet when hitting one plane.
+        <br>
+          4. Pressing the key “i” or “d” to increase/decrease the speed of planes.
+        <br>
+          5. Pressing the key “r” to restart the game when game’s over.
         </p>
 
-        <img src="img/game/2.png" alt="" class="img-responsive">
+
+        <h2>Game Interfaces</h2>
+        <hr>
+
+          <h4 class="project-subtitle-2">
+            Prestart Page
+          </h4>
+
+          <p class="text-content">
+            Stars move with your mouse. 
+          <br>
+            Clicking the start button to start when the game loads successfully.
+          </p>
+
+          <img src="img/game/1.png" class="img-1">
 
 
-        <h5 class="text-center">Gameover Page</h5>
-        <p>
-          When running out of bullets, the game is over. 
-          <br>Pressing the key “r” to restart.
-        </p>
-        <img src="img/game/3.png" alt="" class="img-responsive">
+          <h4 class="project-subtitle-2">
+            Game Page
+          </h4>
+
+          <p class="text-content">
+            Moving your mouse to control the removable shooter at the bottom.
+          <br>
+            10 bullets in total: getting 10 points and 1 more bullet when hitting one plane. 
+          <br>
+            The more you hit, the faster the planes fly.
+          <br>
+            Pressing the key “i” or “d” to increase/decrease the speed of planes.
+          </p>
+
+          <img src="img/game/2.png" class="img-1">
 
 
-        <h5 class="text-center">Screen Recording</h5>
+          <h4 class="project-subtitle-2">
+            Gameover Page
+          </h4>
 
-        <center>
-          <video controls autoplay width="100%" height="100%">
+          <p class="text-content">
+            When running out of bullets, the game is over. 
+          <br>
+            Pressing the key “r” to restart.
+          </p>
+
+          <img src="img/game/2.png" class="img-1">
+
+
+        <h2>Screen Recording</h2>
+        <hr>
+
+        <video controls autoplay width="100%" height="100%" class="bottomline">
             <source src="files/plane shooter.mp4" type="video/mp4">       
           </video>
-        </center>
 
-                <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        </div>
+      </div>
 
 
 
 
-    
+  <!--Footer-->
+
+    <div class="footer-container">
+
+      <div class="footer-previous">
+        <a href="FitNU.html">previous</a>
+      </div>
+
+      <div class="footer-next">
+        <a href="Harley Quinn.html">next</a>
+      </div>
+
+        <p class="text-center footer-title">Plane Shooter</p>
+   
     </div>
-
 
 
  
-        
-      
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
-<div class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 text-center">
-        <ul class="navbar-nav nav">
-          <li>
-            <a href="FitNU.html" title="" class="project-nav left"><span class="project-number">PREVIOUS</span></a>
-          </li>
-        </ul>
-        <p class="h5 navbar-text">Plane Shooter<i class="fa fa-chevron-down arrow-down" aria-hidden="true"></i></p>
 
-        <ul class="navbar-nav nav navbar-right">
-          <li>
-            <a href="Harley Quinn.html" title="" class="project-nav right"><span class="project-number">NEXT</span></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 
