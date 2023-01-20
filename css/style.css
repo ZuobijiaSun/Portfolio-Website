@@ -37,6 +37,21 @@ body {
   width: 100%;
   height: 100%;
   font-family: 'PPNeueMachina-Regular';
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-image:
+    linear-gradient(to right, var(--mid-grey) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--mid-grey) 1px, transparent 1px);
+  background-attachment: fixed;
+  background-size: 50px 50px;
+  background-position: center;
+  background-color: #000;
+  z-index: -999;
+}
+
+  /*
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ea8ea184897953.5d6d1f62931f4.jpg);  
   animation-duration: 30s;
   animation-iteration-count: infinite;
@@ -48,7 +63,8 @@ body {
   background-size: cover;
   background-color: #000;
   z-index: -999;
-  /*
+
+  
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/318335/gradient-wave-bg.jpg");
   background-position: center;
   background-attachment: fixed;
@@ -323,8 +339,8 @@ svg text {
 
 .face.face--front a:hover, .face.face--back a:hover, 
 .face.face--top :hover, .face.face--bottom a:hover {
-  background: rgb(106,255,108);
-  background: radial-gradient(circle, rgba(106,255,108,1) 0%, rgba(99,235,255,1) 14%, rgba(83,172,254,1) 28%, rgba(117,82,255,1) 42%, rgba(207,83,254,1) 56%, rgba(247,32,101,1) 71%, rgba(255,141,17,1) 85%, rgba(255,221,17,1) 100%);
+  background: rgb(186, 184, 186);
+  /*background: radial-gradient(circle, rgba(106,255,108,1) 0%, rgba(99,235,255,1) 14%, rgba(83,172,254,1) 28%, rgba(117,82,255,1) 42%, rgba(207,83,254,1) 56%, rgba(247,32,101,1) 71%, rgba(255,141,17,1) 85%, rgba(255,221,17,1) 100%);*/
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-transition: all 500ms ease;
